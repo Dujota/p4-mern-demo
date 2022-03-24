@@ -56,7 +56,7 @@ function App() {
 
       {orders.length
         ?
-          orders.map( order => <li key={order._id}>{order.lineItem}</li>)
+          orders.map( order => <li key={order._id}>{order.lineItems}</li>)
         :
           <p>Add some orders please!!</p>
       }
